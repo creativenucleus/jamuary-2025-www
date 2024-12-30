@@ -59,7 +59,7 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
             --config "${{ github.workspace }}/jamuary/config/hugo.toml" \
-            --themesDir ./themes
+            --themesDir "${{ github.workspace }}/jamuary/themes"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
