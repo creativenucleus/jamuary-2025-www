@@ -5,3 +5,4 @@ theme = 'ananke'
 
 [params]
     custom_css = ["css/custom.css"]
+    body_classes = [""]
