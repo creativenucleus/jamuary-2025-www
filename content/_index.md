@@ -1,9 +1,8 @@
 ---
-title: "The index page"
+title: "#ByteJamuary"
+description: "A Month of Daily ByteJam Ideas"
 draft: false
 ---
-# Welcome
-
 Test content
 
 ## Heading 2

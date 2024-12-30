@@ -1,5 +1,5 @@
 <li>
   <a href="{{.RelPermalink}}">{{ .Title }}</a>
-  ({{ .PublishDate | time.Format ":date_medium" }})
+  ({{ .PublishDate | time.Format (default "January 2, 2006" .Site.Params.date_format) }})
   <a href="{{.RelPermalink}}">Read</a>
 </li>
