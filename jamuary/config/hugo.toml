@@ -1,4 +1,4 @@
-baseURL = 'http://jamuary.creativenucleus.com/'
+baseURL = 'https://jamuary.creativenucleus.com/'
 languageCode = 'en-gb'
-title = 'Jamuary 2025'
+title = 'Jamuary!'
 theme = 'ananke'
