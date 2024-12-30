@@ -62,7 +62,6 @@ jobs:
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
             --config "${{ github.workspace }}/bytejamuary/config/hugo.toml" \
             --contentDir "${{ github.workspace }}/bytejamuary/content" \
-            --dataDir "${{ github.workspace }}/bytejamuary/data" \
             --layoutDir "${{ github.workspace }}/bytejamuary/layouts" \
             --themesDir "${{ github.workspace }}/bytejamuary/themes"
       - name: Upload artifact
