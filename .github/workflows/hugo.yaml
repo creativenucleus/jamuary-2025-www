@@ -60,8 +60,8 @@ jobs:
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
-            --config "${{ github.workspace }}/jamuary/config/hugo.toml" \
-            --themesDir "${{ github.workspace }}/jamuary/themes"
+            --config "${{ github.workspace }}/bytejamuary/config/hugo.toml" \
+            --themesDir "${{ github.workspace }}/bytejamuary/themes"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
