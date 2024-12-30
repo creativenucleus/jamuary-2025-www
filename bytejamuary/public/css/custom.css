@@ -3,12 +3,16 @@ html {
     color: #ffdddd;
 }
 
-a, a:visited {
-    color: #ff5555;
+a {
+    color: #ff5555;    
 }
 
-a, a:visited {
+a:visited {
     color: #902c2c;
+}
+
+a:hover {
+    color: #f47575;
 }
 
 ul {    
