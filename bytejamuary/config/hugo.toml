@@ -1,6 +1,6 @@
-baseURL = 'https://jamuary.creativenucleus.com/'
+baseURL = 'https://bytejamuary.creativenucleus.com/'
 languageCode = 'en-gb'
-title = 'Jamuary!'
+title = 'ByteJamuary!'
 theme = 'ananke'
 
 [params]
