@@ -1,0 +1,3 @@
+[submodule "jamuary/themes/ananke"]
+	path = jamuary/themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
