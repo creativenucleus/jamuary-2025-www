@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'http://jamuary.creativenucleus.com/'
+languageCode = 'en-gb'
+title = 'Jamuary 2025'
 theme = 'ananke'
