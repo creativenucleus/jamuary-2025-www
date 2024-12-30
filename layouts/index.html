@@ -14,11 +14,11 @@
 
     <div class="pa3 pa4-ns w-100 w-70-ns center">
       <section class="w-100 mw8">
-        <ul>
+        <dl>
           {{ range ($section).Reverse }}
             {{ .Render "summary-line" }}
           {{ end }}
-        </ul>
+        </dl>
       </section>
     </div>
   {{ end }}

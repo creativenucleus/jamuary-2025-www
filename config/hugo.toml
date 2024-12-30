@@ -3,7 +3,7 @@ languageCode = 'en-gb'
 theme = 'ananke'
 copyright = 'James Rutherford (jtruk)'
 title = '#ByteJamuary'
-description = 'A Month of Daily ByteJam Ideas'
+description = 'A Month of Daily ByteJam Tricks'
 
 [params]
     custom_css = ["css/custom.css"]
