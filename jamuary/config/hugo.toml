@@ -2,3 +2,6 @@ baseURL = 'https://jamuary.creativenucleus.com/'
 languageCode = 'en-gb'
 title = 'Jamuary!'
 theme = 'ananke'
+
+[params]
+    custom_css = ["css/custom.css"]
