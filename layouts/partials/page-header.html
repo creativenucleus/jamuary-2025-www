@@ -4,12 +4,12 @@
             <h1 class="lh-title">
                 <a href="/">{{ .Site.Title }}</a>
             </h1>
-            <h2 class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+            <h2 class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb2">
                 {{ .Title }}
                 ({{ .PublishDate | time.Format (default "January 2, 2006" .Site.Params.date_format) }})
             </h2>
             {{ with .Params.description }}
-                <h2 class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+                <h2 class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb2">
                     {{ . }}
                 </h2>
             {{ end }}
