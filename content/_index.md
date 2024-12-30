@@ -14,7 +14,7 @@ Everyone has their own style and their own tricks. I'd like to share mine, with 
 
 1) I'd like to encourage anyone who is thinking about trying a ByteJam to do so. I'll give you some suggestions for code that will help you more confidently make something fancy. (If you'd like to try a ByteJam and would like some help getting on-boarded, drop me a message).
 
-2) If you're more experienced, I hope you'll find at least a couple of things in the month to adapt, to expand the range of things you can use!
+2) If you're more experienced, I hope you'll find at least a couple of tips within the month's tips that you can adapt, to expand the range of things you can make.
 
 So - ByteJamuary will be one trick every day of January 2025. I'll start one day early, on 31st December, just to get an introduction out of the way, but the rest of the tips should be practical. I'll aim not to duplicate too much from the brilliant [Tiny Code Christmas](https://tcc.lovebyte.party/).
 
