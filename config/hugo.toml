@@ -1,7 +1,7 @@
 baseURL = 'https://bytejamuary.creativenucleus.com/'
 languageCode = 'en-gb'
 theme = 'ananke'
-copyright = 'James Rutherford (jtruk)'
+copyright = 'JTRUK'
 title = '#ByteJamuary'
 description = 'A Month of Daily ByteJam Tricks'
 

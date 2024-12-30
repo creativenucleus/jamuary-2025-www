@@ -1,6 +1,6 @@
 ---
 title: "Now"
-publishDate: 2024-12-30
+publishDate: 2025-02-02
 draft: false
 ---
 
