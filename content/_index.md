@@ -14,7 +14,7 @@ Everyone has their own style and their own tricks. I'd like to share mine, with 
 
 1) I'd like to encourage anyone who is thinking about trying a ByteJam to do so. I'll give you some suggestions for code that will help you more confidently make something fancy. (If you'd like to try a ByteJam and would like some help getting on-boarded, drop me a message).
 
-2) If you're more experienced, I hope you'll find at least a couple of tips within the month's tips that you can adapt, to expand the range of things you can make. (Maybe we can share your tips too?).
+2) If you're more experienced, I hope you'll find at least a couple of tips within the month's daily drops that you can adapt, to expand the range of things you can make. (Maybe we can share your tips too?).
 
 So - ByteJamuary will be one trick every day of January 2025. They'll all be very short, but with lots of scope for you to play.
 
