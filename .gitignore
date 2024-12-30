@@ -1,7 +1,7 @@
 *.test
 imports.*
 dist/
-public/*
+bytejamuary/public/*
 bytejamuary/resources/_gen/*
 
 hugo-serve.bat
