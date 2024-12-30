@@ -2,7 +2,7 @@
 imports.*
 dist/
 public/
-resources/_gen/
+jamuary/resources/_gen/*
 
 hugo-serve.bat
 .hugo_build.lock
