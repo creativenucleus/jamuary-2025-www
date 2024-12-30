@@ -8,7 +8,7 @@ ByteJamming is livecoding on [TIC-80](https://tic80.com/) - that's making visual
 
 [Field-FX](https://mastodon.social/@FieldFX@mastodon.online) aims to run Monday Night Bytes every week - it's an online stream, with (usually) four or more coders, making something - often with a live DJ.
 
-I've been doing ByteJams since Feb 2024. It's casual and creative, with a friendly and supportive community. My first time was scary, but they now *mostly* feel relaxed - and I think it's a lovely way to experiment, make art, and often hit a 'flow' state of mind. It's also a great way to appreciate what others can do, and learn from them.
+I've been doing ByteJams since Feb 2023. It's casual and creative, with a friendly and supportive community. My first time was scary, but they now *mostly* feel relaxed - and I think it's a lovely way to experiment, make art, and often hit a 'flow' state of mind. It's also a great way to appreciate what others can do, and learn from them.
 
 Everyone has their own style and their own tricks. I'd like to share mine, with two goals:
 
