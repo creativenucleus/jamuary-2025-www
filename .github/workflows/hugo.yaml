@@ -48,8 +48,6 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
-      - name: test2
-        run: dir "${{ github.workspace }}/jamuary"
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
@@ -60,9 +58,7 @@ jobs:
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
-            --config "${{ github.workspace }}/jamuary/config/hugo.toml" \
-            --contentDir "${{ github.workspace }}/jamuary" \
-            --themesDir "${{ github.workspace }}/jamuary/themes"
+            --config "${{ github.workspace }}/jamuary/config/hugo.toml"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
