@@ -1,2 +1,8 @@
+*.test
+imports.*
+dist/
+public/
+resources/_gen/
+
 hugo-serve.bat
 .hugo_build.lock

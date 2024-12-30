@@ -1,5 +1,5 @@
 <li>
-  {{ .PublishDate | time.Format ":date_medium" }}
   <a href="{{.RelPermalink}}" class="color-inherit dim link">{{ .Title }}</a>
+  ({{ .PublishDate | time.Format ":date_medium" }})
   <a href="{{.RelPermalink}}">Read</a>
 </li>
