@@ -58,9 +58,9 @@ jobs:
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
-            --config ./jamuary/config/hugo.toml
-            --contentDir ./jamuary
-            --themesDir ./jamuary/themes 
+            --config ${{ runner.temp }}/jamuary/config/hugo.toml
+            --contentDir ${{ runner.temp }}/jamuary
+            --themesDir ${{ runner.temp }}/jamuary/themes 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
