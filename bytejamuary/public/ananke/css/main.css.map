@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "C:/roles/jr/demoscene/jamuary-2025-www/jamuary",
+	"sourceRoot": "C:/roles/jr/demoscene/jamuary-2025-www/bytejamuary",
 	"sources": [
 		"ananke/css/main.css"
 	],
