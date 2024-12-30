@@ -59,11 +59,7 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/" \
-            --config "${{ github.workspace }}/bytejamuary/config/hugo.toml" \
-            --contentDir "${{ github.workspace }}/bytejamuary/content" \
-            --layoutDir "${{ github.workspace }}/bytejamuary/layouts" \
-            --themesDir "${{ github.workspace }}/bytejamuary/themes"
+            --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

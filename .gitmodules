@@ -1,3 +1,3 @@
-[submodule "bytejamuary/themes/ananke"]
-	path = bytejamuary/themes/ananke
+[submodule "themes/ananke"]
+	path = themes/ananke
 	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git

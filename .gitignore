@@ -1,8 +1,8 @@
 *.test
 imports.*
 dist/
-bytejamuary/public/*
-bytejamuary/resources/_gen/*
+public/*
+resources/_gen/*
 
 hugo-serve.bat
 .hugo_build.lock
