@@ -60,7 +60,7 @@ jobs:
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
-            --configDir "${{ github.workspace }}/config"
+            --config "${{ github.workspace }}/config/hugo.toml"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
