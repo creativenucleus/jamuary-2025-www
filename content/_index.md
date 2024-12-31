@@ -2,7 +2,7 @@
 description: A Month of Daily ByteJam Tricks
 layout: front
 ---
-# What is This?
+## What is This?
 
 ByteJamming is livecoding on [TIC-80](https://tic80.com/) - that's making visual effects while people watch.
 
