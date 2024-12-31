@@ -33,6 +33,14 @@ So, we can read the code from a player (aka. the client) using TIC started with 
 
 We use Ticws to send that code file over the internet. Currently we send to a 'proxy server' in the middle. This listens to a connected client and forwards that data on to a connected server - this allows us to have a static address that both clients and servers can connect to. It also means whoever is running the server doesn't need to open their network for connections.
 
+Note that only the code from the TIC-80 editor gets sent. The code is annotated either with the current cursor position, or with a run-me signal, so that the stream can show you editing and running.
+
+The host will not receive:
+- Graphics or music created with the in-built editors
+- Mouse or keyboard input while your code is running
+- Anything you do on the command line within TIC-80
+- Anything you do elsewhere on your computer
+
 ## Joining a ByteJam
 
 Your host will provide you with a `room name` and your `username`. You can connect at any time and you'll be connecting to a proxy, so if the host has not yet connected, your updates will disappear into the void. No harm done!
@@ -71,6 +79,22 @@ After a few seconds, everything should start up. This will include TIC-80 and Ti
 The host will launch an instance of TIC for each player and collect the output of these together into a visual layout (usually decorated with every player's name, and a background). They'll be using some free software [OBS Studio](https://obsproject.com/) to do that... but you only need investigate that if you're curious!
 
 You may be asked to check the stream is working. I usually make a little effect with my username to let the host know which TIC is receiving my code.
+
+I might also test that the FFT audio in TIC is working by starting to type fft( in the code editor... this should turn green as a registered command... and then set up a little fft effect. You can copy this one to try:
+
+```lua
+function TIC()
+	cls()
+	for i=0,135 do
+		line(0,i,ffts(i)*239,i,12)
+	end
+end
+```
+(Save something like this as `fft-test.tic` for next time?)
+
+Maybe bang on some [h0ffman](https://soundcloud.com/h0ffman) to check you get the visual feedback?
+
+![Some bouncing FFT levels](/image/fft-levels.gif)
 
 If everything has gone well then you'll be set - the stream will launch on Twitch and you can Jam. Note that the stream will be running slightly behind, so there may be 10 or 20 seconds lag between changes and updates on the stream. This is disconcerting but you'll get used to it.
 
