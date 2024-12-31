@@ -74,13 +74,13 @@ Then, in a command window, execute
 run_client.bat room_name username
 ```
 
-After a few seconds, everything should start up. This will include TIC-80 and Ticws, which will attach to a specific channel on the alkama's proxy server (thanks [Alkama](https://alkama.com/))!
+After a few seconds, everything should start up. This will include TIC-80 and Ticws, which will attach to a specific channel on alkama's proxy server (thanks [Alkama](https://alkama.com/))!
 
 The host will launch an instance of TIC for each player and collect the output of these together into a visual layout (usually decorated with every player's name, and a background). They'll be using some free software [OBS Studio](https://obsproject.com/) to do that... but you only need investigate that if you're curious!
 
 You may be asked to check the stream is working. I usually make a little effect with my username to let the host know which TIC is receiving my code.
 
-I might also test that the FFT audio in TIC is working by starting to type fft( in the code editor... this should turn green as a registered command... and then set up a little fft effect. You can copy this one to try:
+I might also test that the FFT audio in TIC is working by starting to type `fft`... in the code editor. This should turn green as a registered command to confirm we're using the right version of TIC. Then I might set up a little fft effect to check the audio is being received. You can copy this one to try:
 
 ```lua
 function TIC()
@@ -90,15 +90,15 @@ function TIC()
 	end
 end
 ```
-(Save something like this as `fft-test.tic` for next time?)
+(Save something like this as `fft-test.tic` for next time you need it)
 
-Maybe bang on some [h0ffman](https://soundcloud.com/h0ffman) to check you get the visual feedback?
+Perhaps bang on some [h0ffman](https://soundcloud.com/h0ffman) to check you get the visual feedback?
 
 ![Some bouncing FFT levels](/image/fft-levels.gif)
 
-If everything has gone well then you'll be set - the stream will launch on Twitch and you can Jam. Note that the stream will be running slightly behind, so there may be 10 or 20 seconds lag between changes and updates on the stream. This is disconcerting but you'll get used to it.
+If everything has gone well then you'll be set - the stream will shortly be launched on Twitch and you can Jam. Note that the stream will be running slightly behind, so there may be 10 or 20 seconds lag between your code changes and updates on the stream. This is disconcerting but you'll get used to it.
 
-You may also find occasional issues. Some of the time, I'll run code and it'll show an error on the server. Re-running fixes it.
+You may also find occasional issues. Some of the time I'll run code and it'll show an error on the server. Re-running fixes it.
 
 Virtual Bob Ross wishes you many happy little accidents!
 
