@@ -7,6 +7,12 @@ html {
     background-color: #111241;
     color: #ffdddd;
     font-family: Montserrat, sans-serif;
+    font-size: 1.2em;
+    line-height: 1.35rem;
+}
+
+h1, h2 {
+    line-height: 2rem;
 }
 
 a {
