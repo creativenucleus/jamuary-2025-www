@@ -9,7 +9,7 @@ Shortcuts: [TIC-80](#TIC-80) | [How Remote Connections Work](#how-remote-connect
 
 This is the prelude post, here to get you up and running. I'm hoping it might be useful for future reference too.
 
-Subsequent posts will be code tricks... I promise!
+Subsequent posts will be shorter, and focused on code... I promise!
 
 ## TIC-80
 
