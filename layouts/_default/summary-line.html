@@ -1,8 +1,7 @@
 <dt>🍓
   <a href="{{.RelPermalink}}">{{ .Title }}</a>
-  <span class="date">({{ .PublishDate | time.Format (default "January 2, 2006" .Site.Params.date_format) }})</span>
 </dt>
 <dd>
-  {{ .Description }}
-  <a href="{{.RelPermalink}}">(Read Article)</a>
+  {{ .Description }}<br>
+  <span class="date">({{ .PublishDate | time.Format (default "January 2, 2006" .Site.Params.date_format) }})</span>
 </dd>

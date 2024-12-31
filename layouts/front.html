@@ -10,7 +10,12 @@
     {{ $section := where $.Site.RegularPages "Section" "in" $section_name }}
 
     <div class="pa3 w-100 w-75-m w-60-l tc center">
+      <a href="#what-is-this">What is this?</a>
+    </div>
+
+    <div class="pa3 w-100 w-75-m w-60-l center">
       <section class="w-100 mw8">
+        <h1 class="white">Daily Drops</h1>
         <dl>
           {{ range ($section).Reverse }}
             {{ .Render "summary-line" }}

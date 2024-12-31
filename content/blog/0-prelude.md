@@ -1,5 +1,5 @@
 ---
-title: "TIC-80, Remote Connections, and Joining a ByteJam"
+title: "0: TIC-80, Remote Connections, and Joining a ByteJam"
 description: "How to Get Started!"
 publishDate: 2024-12-31
 ---
