@@ -13,22 +13,22 @@ Shortcuts:
 
 I'm going to give the honour of first tip to:
 
-> Have [the TIC-80 reference](https://tic80.com/learn) open in a browser tab so you can check the details.
+> Have [the TIC-80 reference](https://tic80.com/learn) open in a browser tab so you can check on details.
 
 I've done plenty of ByteJams and I still need it when I'm under pressure and things go wrong or my mind goes blank. There's no shame in that.
 
-The most useful things for me have been:
+Your mileage will vary, but the most useful things for me have been:
 
 - The memory map, especially the special area of VRAM (we'll explore this later)
-- When something isn't working and you need to check the order of arguments - side-eye glances at `ttri` and `memcpy` 😠
+- When something isn't working and you need to check the order of arguments. Side-eye glances at `ttri` and `memcpy` 😠
 
 Similarly:
 
 > If you have tiny, but complicated bits of code that you like to use, have some code snippets that you can copy and paste in. Maybe organised in a GitHub repository.
 
-I'm sure spectators would prefer to see you acheive whatever you're heading for rather than getting bogged down in a typo you can't figure out. Frowned-upon for competitive livecoding, but ByteJamming is about fun, so whatever the opposite of frowned-upon is!
+I'm sure spectators would prefer to see you acheive your vision rather than getting sunk by a typo you can't figure out for 20 minutes. This'll be frowned-upon for competitive livecoding, of course, but we're ByteJamming so turn that frowned-upon upside downed-upon!
 
-I tend to copy in some short functions (3-5 lines) for 3D rotation and projection, because I've wrestled with those enough. One day I'm sure I'll get round to learning them solidly. Maybe. If I need to.
+I tend to copy in some short functions (3-5 lines) for 3D rotation and projection, because I've wrestled with those enough. One day I'm sure I'll get round to learning them solidly. (Maybe. If I need to).
 
 ## The Basic Shapes
 
@@ -46,7 +46,7 @@ At some point, you'll find yourself throwing a few shapes around the screen, and
 
 > Take a moment to step back to explore the small things
 
-You probably started off with a shape, added loads of them and then got consumed by how they move as a whole, but little changes to that shape can have a huge effect on the feel of your effect. Sometimes these may surprise you.
+You probably started off with a shape, wrapped it in a loop so that there's loads of them and then become consumed by how they move as a whole. But little changes to that shape can have a huge effect on the feel of your effect and sometimes these will surprise you.
 
 You could try replacing the shape, colour application, outline, spacing, or movement:
 
@@ -67,8 +67,12 @@ function TIC()
 end
 ```
 
-Yep, that's a VERY large circle, about half-a-million times the width of the screen. You wouldn't expect to type that, but I've made it happen accidentally (e.g. when dividing 1 by a very small fraction) or by sending a number to a large power (x^y). That can happen when we get on to playing with 3D, so if you feel you're in danger of locking your own (and the server) TIC, then use something like `math.min(r, 500)` or similar to cap the size!
+Yep, that's a VERY large circle, about half-a-million times the width of the screen. You wouldn't expect to type that, but I've made it happen accidentally (e.g. when dividing 1 by a very small fraction, or by sending a number to a large power `x^y`). That can happen more easily we get to playing with 3D and/or randomising values, so if you feel you're in danger of locking your own (and the server) TIC, then use something like `math.min(r, 500)` or similar to cap the size!
+
+If it happens, it's likely not the end of everyone on the stream because each TIC will probably be CPU isolated from the others, but it will be a hassle to sort out on both client and server sides.
 
 ## Dioramas
 
-A mastery of basic shapes is very useful for drawing scenes. I'm not so hot at that, but if that's your thing then I'd like to recommend you browse [Enfys](https://livecode.demozoo.org/performer/T%25C3%25B4Bach.html#mc) archive. Many of their effects use TIC-80's default cartoony palette, but with excellent attention to edges for pop, and smaller details to make them characterful.
+A mastery of basic shapes is very useful for drawing scenes.
+
+I'm not so hot at that, so can't offer my own suggestions, but I'd like to recommend you browse [Enfys'](https://livecode.demozoo.org/performer/T%25C3%25B4Bach.html#mc) archive. Many of their effects use TIC-80's default cartoony palette, but with excellent attention to the edges for better 'pop', and also the smaller details that make something characterful.
