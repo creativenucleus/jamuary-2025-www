@@ -48,7 +48,7 @@ At some point, you'll find yourself throwing a few shapes around the screen, and
 
 You probably started off with a shape, wrapped it in a loop so that there's loads of them and then become consumed by how they move as a whole. But little changes to that shape can have a huge effect on the feel of your effect and sometimes these will surprise you.
 
-You could try replacing the shape, colour application, outline, spacing, or movement:
+You could try swapping the shape, changing the colour application, switching between outline and filled, overlaying outlined shapes with filled shapes, changing the spacing, or movement:
 
 ![A selection of moving shapes](/image/1/primitives-style.gif)
 
