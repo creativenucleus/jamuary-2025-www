@@ -18,6 +18,6 @@ Everyone has their own style and their own tricks. I'd like to share mine, with 
 
 So - ByteJamuary will be one trick every day of January 2025. They'll all be very short, but with lots of scope for you to play.
 
-I'll start one day early, on 31st December, just to get an introduction out of the way, but the rest of the tips should be practical. I'll aim not to duplicate too much from the brilliant [Tiny Code Christmas](https://tcc.lovebyte.party/)
+The first post, on 31st December, will get some admin out of the way (how to join a ByteJam), but the rest of the tips will be about effects and strategy. I'll aim not to duplicate too much from the brilliant [Tiny Code Christmas](https://tcc.lovebyte.party/)
 
 If you want to see what ByteJam effects can look like, take a look at the livecode archive on [DemoZoo](https://livecode.demozoo.org/type/Byte_Jam.html#mc)

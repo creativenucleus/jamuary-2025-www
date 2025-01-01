@@ -1,6 +1,6 @@
 ---
 title: "0: TIC-80, Remote Connections, and Joining a ByteJam"
-description: "How to Get Started!"
+description: "Some ByteJam admin!"
 publishDate: 2024-12-31
 ---
 Shortcuts: [TIC-80](#TIC-80) | [How Remote Connections Work](#how-remote-connections-work) | [Joining a ByteJam](#joining-a-bytejam)

@@ -3,6 +3,11 @@
     src: url('/fonts/Montserrat-Medium.ttf')  format('truetype');
 }
 
+@font-face {
+    font-family: 'SourceCodePro';
+    src: url('/fonts/SourceCodePro-Medium.ttf')  format('truetype');
+}
+
 html {
     background-color: #111241;
     color: #ffdddd;
@@ -46,4 +51,15 @@ dd {
 .date {
     font-size: 80%;
     color: #aa0f0f;
+}
+
+code {
+    color: #a8c8ff;
+    font-family: SourceCodePro, monospace;
+}
+
+blockquote {
+    color: #ffc8c8;
+    border: 1px solid #ffffff;
+    padding: .5em 1em;
 }
