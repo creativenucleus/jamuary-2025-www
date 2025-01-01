@@ -3,7 +3,10 @@ title: "0: TIC-80, Remote Connections, and Joining a ByteJam"
 description: "Some ByteJam admin!"
 publishDate: 2024-12-31
 ---
-Shortcuts: [TIC-80](#TIC-80) | [How Remote Connections Work](#how-remote-connections-work) | [Joining a ByteJam](#joining-a-bytejam)
+Shortcuts:
+[TIC-80](#TIC-80)
+| [How Remote Connections Work](#how-remote-connections-work)
+| [Joining a ByteJam](#joining-a-bytejam)
 
 ---
 
@@ -94,7 +97,7 @@ end
 
 Perhaps bang on some [h0ffman](https://soundcloud.com/h0ffman) to check you get the visual feedback?
 
-![Some bouncing FFT levels](/image/fft-levels.gif)
+![Some bouncing FFT levels](/image/0/fft-levels.gif)
 
 If everything has gone well then you'll be set - the stream will shortly be launched on Twitch and you can Jam. Note that the stream will be running slightly behind, so there may be 10 or 20 seconds lag between your code changes and updates on the stream. This is disconcerting but you'll get used to it.
 
