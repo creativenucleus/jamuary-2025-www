@@ -52,6 +52,25 @@ You could try replacing the shape, colour application, outline, spacing, or move
 
 ![A selection of moving shapes](/image/1/primitives-style.gif)
 
+I find the alternating black/colour aesthetic very pleasing. Code for that looks like:
+
+```lua
+function TIC()
+	cls()
+	for i=0,32 do
+		local a=time()*.002+i*.04
+        -- if i is a multiple of 2 then black, otherwise 1+[colours looped]
+		local c=(i%2==0) and 1+(i//2)%15 or 0
+		circ(
+			120+math.cos(a)*80,
+			68+math.cos(a*.8)*50,
+			10,
+			c
+		)
+	end
+end
+```
+
 Shout out to [Mantratronic](https://livecode.demozoo.org/performer/Mantratronic.html#mc), who has an excellent eye for this detail, especially outline shapes.
 
 ## A Dragon
