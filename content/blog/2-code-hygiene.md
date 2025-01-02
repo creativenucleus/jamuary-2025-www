@@ -46,7 +46,7 @@ local T=0
 ...
 ```
 
-If you didn't know, Lua's math functions are in an automatically included library, so typically you'd be calling `math.sin`, `math.abs` etc. around in your code. Lua treats functions as first-class values - which means you can assign them to variables. So here, we're assigning `math` to `M` and then also picking off select functions to further alias, such as `S` as `math.sin`. We don't get a lot of horizontal screen space to play with in TIC-80, so this helps a bunch.
+If you didn't know, Lua's math functions are in an automatically included library, so typically you'd be calling `math.sin`, `math.abs` etc. around in your code. Lua treats functions as first-class values - which means you can assign them to variables. So here, we're assigning `math` to `M` and then also picking off select functions to further alias, such as `S` as `math.sin`. We don't get a lot of horizontal screen space to play with in TIC-80, so this helps to keep mathy things a lot cleaner.
 
 I have a sneaky `TAU` in there because that's very useful when `sin`ing and `cos`ing. `T` is my go-to for the global time variable.
 
