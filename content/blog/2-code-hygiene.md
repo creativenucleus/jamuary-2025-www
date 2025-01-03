@@ -5,7 +5,6 @@ publishDate: 2025-01-02
 ---
 Shortcuts:
 [Be Kind to Your Future Self](#be-kind-to-your-future-self)
-| [Aliases](#aliases)
 | [Style](#style)
 
 ---
@@ -31,30 +30,6 @@ A more architected layout also means it'll be easier for me to go back at a late
 These are *my* style tips. They probably won't all be right for you, but they might be worth trying on for size - I've realised over the years how wedded I've been to a particular code style, then having to use something else for a few months, before finally looking back at how I felt as self-constructed dogma.
 
 So...
-
-## Aliases
-
-I have a small selection of aliases at the top of the file.
-
-```lua
-local M=math
-local S,C,ATAN,PI,R=m.sin,m.cos,m.atan2,m.pi,M.random
-local ABS,MIN,MAX=m.abs,m.min,m.max
-local TAU=2*PI
-local T=0
--- (The above are a my most used math functions but yours may be different)
-...
-```
-
-If you didn't know, Lua's math functions are in an automatically included library, so typically you'd be calling `math.sin`, `math.abs` etc. around in your code. Lua treats functions as first-class values - which means you can assign them to variables. So here, we're assigning `math` to `M` and then also picking off select functions to further alias, such as `S` as `math.sin`. We don't get a lot of horizontal screen space to play with in TIC-80, so this helps to keep mathy things a lot cleaner.
-
-I have a sneaky `TAU` in there because that's very useful when `sin`ing and `cos`ing. `T` is my go-to for the global time variable.
-
-You'd be very justified in having yours as a snippet you copy in before things start - because occasionally I've added things to it during the ByteJam, but messed up the aliasing order such that `math.sin` is aliased as `ABS` or whatever. That's *really* hard to track down 😂
-
-I'm very terse with `S` and `C` because I use sin and cos a heck of a lot. `ABS` and `ATAN` are in full rather than either as `A` because I don't want to mix them up.
-
-You'll notice they're all uppercase and prefixed with keyword `local`. The former is a style choice (I'll explain); the local thing isn't so necessary here, but it does make them run a little bit faster (unexpected but true... welcome to Lua-Lua-land!) - it certainly doesn't stop them from being globally available within your functions.
 
 ## Style
 
@@ -101,6 +76,8 @@ That'll print 10 to the screen. `x` is assigned `5` in [1], then is reassigned `
 If you preface [2] to be `local x=0`, it is scope-bound so that it doesn't clash with the previous one, and the result is `5`, not `10` as before.
 
 It's a toy example, but the point is that you maybe you haven't intentionally named those variables the same and don't want them to interact. I've certainly gotten into a big hole more than once without `local`. It's super hard to figure out what's going wrong, so I scatter it everywhere.
+
+As a little bonus, `local` makes variables a little bit faster to access (unexpected but true... welcome to Lua-Lua-land!). More necessary if we're writing a demo, but we can also be a good citizen here, right?
 
 ### I Love a Good Function
 
