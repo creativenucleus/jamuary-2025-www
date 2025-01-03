@@ -15,6 +15,8 @@ We don't get a lot of horizontal screen space to play with in TIC-80, so we can 
 
 > Alias the frequently used math functions
 
+(I'll be doing this a bit in the code snippets in this series, so this suggestion should make them look more familiar) 
+
 ## Aliases
 
 I have a small selection of aliases at the top of the file:

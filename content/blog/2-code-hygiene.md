@@ -11,7 +11,7 @@ Shortcuts:
 
 ## Be Kind to Your Future Self
 
-I'm covering this one early. Partly because it'll help make the code snippets in this series look more familiar, but mostly because I think it's *extremely important* and maybe doesn't even feature on your priority list when you first start out.
+I'm covering this one early - mostly because I think it's *extremely important* and maybe doesn't even feature on your priority list when you first start out.
 
 > Optimise for being able to dig yourself out!
 
