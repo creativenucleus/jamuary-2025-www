@@ -52,6 +52,8 @@ v = {
 }
 ```
 
+Note also the final hanging comma after the last list item. This isn't syntactically necessary but it just helps for when you inevitably want to add another item.
+
 ### local keyword
 
 `local` is actually pretty useful. It prevents scope clashes when you aren't being careful and exclusive with variables.
@@ -77,7 +79,7 @@ If you preface [2] to be `local x=0`, it is scope-bound so that it doesn't clash
 
 It's a toy example, but the point is that you maybe you haven't intentionally named those variables the same and don't want them to interact. I've certainly gotten into a big hole more than once without `local`. It's super hard to figure out what's going wrong, so I scatter it everywhere.
 
-As a little bonus, `local` makes variables a little bit faster to access (unexpected but true... welcome to Lua-Lua-land!). More necessary if we're writing a demo, but we can also be a good citizen here, right?
+As a little bonus, `local` makes variables a faster to access (unexpected but true... welcome to Lua-Lua-land!). More necessary if we're needing performance for writing a demo, but we can also be a good citizen here, right?
 
 ### I Love a Good Function
 
