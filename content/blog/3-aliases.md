@@ -39,4 +39,4 @@ You'd be very justified in having yours as a snippet you copy in before things s
 
 I'm very terse with `S` and `C` because I use sin and cos a heck of a lot. `ABS` and `ATAN` are in full rather than either as `A` because I don't want to mix them up.
 
-You'll notice they're all uppercase and prefixed with keyword `local`. The former is a personal style choice (as explained previously); the local thing isn't so necessary here, but it does make them run a tiny bit faster. We might be calling these lots of times within loops, so there's some justfication for that.
+You'll notice they're all uppercase and prefixed with keyword `local`. The former is a personal style choice (as explained previously); the local thing isn't so necessary here, but it does make them run a tiny bit faster, so I've gotten used to doing that in demos where they might be being called lots of times within loops, and I've carried that habit over.

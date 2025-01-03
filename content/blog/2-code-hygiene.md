@@ -90,4 +90,4 @@ If I write a significant chunk of code, I'll likely split it off into a function
 
 Calling a function *does* have a processing overhead. Doing it a lot in a loop can have a performance hit, but:
 
-> Unless you're doing something *very* extraordinary in a ByteJam, don't worry about optimising for performance. At all.
+> Unless you're doing something *very* extraordinary in a ByteJam, don't worry about optimising for performance.
