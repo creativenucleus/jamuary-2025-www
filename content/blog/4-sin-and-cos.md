@@ -1,6 +1,6 @@
 ---
 title: "4: Sin and Cos"
-description: "Magic? No, Better: Trigonometry!"
+description: "Magic? No, Even Better: Trigonometry!"
 publishDate: 2025-01-04
 ---
 Shortcuts:
