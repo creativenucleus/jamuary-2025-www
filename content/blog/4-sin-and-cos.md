@@ -36,7 +36,7 @@ i.e. if we wanted a value between `0` and `100`, our terms would be:
 
 `v = 50 + S(whatever) * 50`
 
-TIC-80's graphics interface is very forgiving of fractional values, so this means we usually don't have to worry about sending the result from `sin` directly into drawing functions for pixel positions or colour indices.
+TIC-80's graphics interface is very forgiving of fractional values, so this means we usually don't have to worry when we send the result from `sin` directly into drawing functions for pixel positions or colour indices.
 
 (Note: Some operations are a bit more picky, - such as the bitwise operators [e.g. `&`, `|`, `<<`, `>>`]. If you encounter errors from one of those, `value//1` is a handy way to knock the fractional part on a value away into the dust).
 
