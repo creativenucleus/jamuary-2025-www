@@ -113,7 +113,7 @@ Unfortunately there's no built-in way to get a `height` the way you can for `wid
 
 You can use `string.sub` to pick out a substring.
 
-The long form is `string.sub(text,i,i)`, but this can be shortened as per the following:
+The long form is `string.sub(text,i,j)`, but this can be shortened as per the following:
 
 ```lua
 local T=0
