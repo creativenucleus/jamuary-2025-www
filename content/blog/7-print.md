@@ -148,4 +148,4 @@ end
 
 Why let the primitive shapes have all the fun, when you can also use characters?
 
-Shout out to [EvilPaul's effect in this Byte Jam](https://livecode.demozoo.org/event/2023_11_13_byte_jam_monday_night_bytes.html#mc) - which first makes a little lookup map of (more or less) increasingly heavy characters, and then sweeps across the screen with a math function that's then translated into one of those characters. Very stylish!
+Shout out to [EvilPaul's effect in this Byte Jam](https://livecode.demozoo.org/event/2023_11_13_byte_jam_monday_night_bytes.html#mc) - which first makes a little lookup map of (more or less) increasingly heavy characters, and then sweeps across the screen with a math function that's then translated into one of those characters. Very stylish! [See it running](tic80.com/play?cart=3623)
